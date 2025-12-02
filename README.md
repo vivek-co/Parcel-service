@@ -37,17 +37,6 @@ else
     echo "Maven is already installed:"
     mvn -version
 fi
-
-# Step 3: Clone the Repository
-REPO_URL="https://github.com/your-username/simple-parcel-service-app.git"
-PROJECT_DIR="simple-parcel-service-app"
-if [ ! -d "$PROJECT_DIR" ]; then
-    echo "Cloning the repository..."
-    git clone $REPO_URL
-else
-    echo "Repository already cloned."
-fi
-
 echo "Environment setup completed. You can now build and run the application manually."
 ==============================================================================================================================================================================
 Build the project manually
