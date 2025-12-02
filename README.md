@@ -8,7 +8,7 @@ echo "Starting Maven project setup..."
 
 # Step 1: Install Java 17
 if ! java -version &>/dev/null; then
-    echo "Installing Java 11..."
+    echo "Installing Java 17..."
     sudo apt update
     sudo apt install -y openjdk-17-jdk
 else
