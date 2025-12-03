@@ -11,7 +11,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'feature-1', url: 'https://github.com/vivek-co/Parcel-service.git'
+                git branch: 'feature-2', url: 'https://github.com/vivek-co/Parcel-service.git'
             }
         }
 
