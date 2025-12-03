@@ -10,7 +10,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'feature-1', url: 'https://github.com/patilsahana1234/Parcel-service.git'
+                git branch: 'feature-1', url: 'https://github.com/vivek-co/Parcel-service.git'
             }
         }
 
